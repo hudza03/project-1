@@ -1,7 +1,7 @@
 
-package javalibs5026211081.java;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
+
 public class JavaLibs5026211081 {
       public static void main(String[] args) {
             String inputSt1 = (String)JOptionPane.showInputDialog(null,
@@ -16,7 +16,8 @@ public class JavaLibs5026211081 {
                     2,
                     null,null,
                     "type your occupation here");
-   
+
+   	    System.out.println("");
             System.out.println("please type your year of born : ");
             System.out.println("");
             
@@ -25,29 +26,36 @@ public class JavaLibs5026211081 {
             
             yearUser = 2021-yearUser;
             System.out.println("");
-            
             System.out.println("Okay " +inputSt1+ ", you are a " +yearUser+ " years old "
                    +inputSt2+ ", right?");
             System.out.println("");    
-            
             System.out.println("now, i have some questions to you.");
             System.out.println("");
+	    System.out.println("");
             System.out.println("please type any two digit number, not less than 50.");
+	    System.out.println("");
             int num1 = sc1.nextInt();
+	    System.out.println("");
             System.out.println("now type again that number, in reverse.");
+	    System.out.println("");
             int num2 = sc1.nextInt();
             int num3 = num1-num2;
             System.out.println("");
             System.out.println("did you know that we can find number 9 in any number?");
+	    System.out.println("");
             System.out.println("if so, let me show you how it works.");
             System.out.println("");
-            System.out.println("you choose number " +num1+ "earlier, so i will find nummber 9 using its reversal.");
+            System.out.println("you choose number " +num1+ " earlier, so i will find nummber 9 using its reversal.");
+	    System.out.println("");
             System.out.println(num1 + " - " +num2+ " = " +num3+ ", than " +num3+ " is totally divided by 9, right ?");
             System.out.println("");
-            
+            System.out.println("");
             System.out.println("now type any decimal number, with emm.. 3 digits before comma is enough, i think.");
+	    System.out.println("");
             double num4 = (double)sc1.nextDouble();
-            System.out.println("please repeat that decimal in reversal. notice that the comma is must stay, literally. "); 
+	    System.out.println("");
+            System.out.println("please repeat that decimal in reversal. notice that the comma is must stay, literally. ");
+	    System.out.println(""); 
             double num5 = (double)sc1.nextDouble();
             double num6 = num4-num5;
             double num7 = num6/9.0;
@@ -55,7 +63,9 @@ public class JavaLibs5026211081 {
             System.out.println("now i will prove this too in decimal, so look carefully.");
             System.out.println("");
             System.out.println("look that " +num4+ " - " +num5+ " = " +num6+ ", than " +num6+ " is totally divided by 9 too.");
+  	    System.out.println("");
             System.out.println("( " +num6+ " / 9 = " +num4+ " )");
+	    System.out.println("");
             System.out.println("amazing, right?");
             
             String inputSt3 = (String)JOptionPane.showInputDialog(null,
