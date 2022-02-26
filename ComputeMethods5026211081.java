@@ -4,7 +4,7 @@ package com.example;
 import java.util.Random;
 import static java.lang.Math.sqrt;
 
-public class ComputeMethods {
+public class ComputeMethods5026211081 {
     public  double fToC(double degreesF){ 
         double suhu = 5.0/9*(degreesF - 32);
         String suhuFix = (Double.toString(suhu).substring(0, 5));
